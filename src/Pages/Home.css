@@ -1,0 +1,119 @@
+.HomeSection {
+    font-family: Source Sans Pro, sans-serif;
+    background-color: #f2f2f2;
+}
+
+.homeSearchSection {
+    padding: 10px 21px;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    background-color: #fafafa;
+    border: 1px solid #c5c5c5;
+}
+
+.homeSearchSection>.searchSec1 {
+    display: flex;
+}
+
+.sSec1 {
+    display: flex;
+    border: 1px solid black;
+    border-top-left-radius: 13px;
+    border-bottom-left-radius: 13px;
+    padding: 3px 10px;
+    border-right: none;
+    background-color: #ffff;
+}
+
+.sSec1>input {
+    border: none;
+    width: 25rem;
+    padding-left: 10px;
+    height: 30px;
+    font-size: 14px;
+    font-family: Source Sans Pro, sans-serif;
+}
+
+.sSecbtn {
+    display: flex;
+    padding: 3px;
+    border-radius: 4px;
+    background-color: #ebebeb;
+}
+
+.sSecbtn>.locationButton {
+    border: none;
+    background-color: #e9544f;
+    border-radius: 4px;
+    color: #ffff;
+    font-size: 12px;
+    padding: 0px 10px;
+    cursor: pointer;
+}
+
+.sSecbtn>.metroButton {
+    border: none;
+    border-radius: 4px;
+    color: #000000;
+    font-size: 12px;
+    padding: 0px 10px;
+    cursor: pointer;
+}
+
+.sSec2 {
+    display: flex;
+    gap: 10px;
+}
+
+.sSec2>.searchButton {
+    width: 100%;
+    background-color: #fd3752;
+    border: none;
+    color: #ffff;
+    font-size: 15px;
+    font-weight: 600;
+    padding: 7px 25px;
+    cursor: pointer;
+}
+
+.sSec2>.searchButton:hover {
+    background: #e3324a radial-gradient(circle, transparent 1%, #e3324a 0) 50%/15000%;
+}
+
+.sSec2>:nth-child(2) {
+    font-size: 14px;
+    text-align: center;
+    text-decoration: none;
+    color: black;
+}
+
+
+
+
+.searchSec2 {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: white;
+    padding: 3px;
+    border-radius: 12px;
+    box-shadow: rgb(215 215 215) 3px 3px 11px -2px;
+}
+
+.searchSec2>.listbtn {
+    background-color: #008387;
+    padding: 10px 18px;
+    border-radius: 10px;
+    color: white;
+    font-size: 15px;
+    cursor: pointer;
+}
+
+.searchSec2>.mapbtn {
+    padding: 10px 18px;
+    border-radius: 10px;
+    color: #008387;
+    font-size: 15px;
+    cursor: pointer;
+}
