@@ -1,5 +1,6 @@
 import React from "react";
 import "./Home.css";
+import Leftsection from "../Components/Leftsection";
 export const Home = () => {
   return (
     <div className="HomeSection">
@@ -23,6 +24,18 @@ export const Home = () => {
           <div className="mapbtn">
             <span>Map</span>
           </div>
+        </div>
+      </div>
+
+
+      <div className="homeSecondSection">
+        <div className="leftSection">
+          <Leftsection />
+        </div>
+
+
+        <div className="rightSection">
+          rightMost
         </div>
       </div>
     </div>
