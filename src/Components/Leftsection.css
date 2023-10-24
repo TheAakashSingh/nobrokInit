@@ -80,7 +80,7 @@
 }
 
 .rangeScrollBar {
-    margin: 10px 0px;
+    margin: 17px 0px;
     width: 100%;
     height: 4px;
     background-color: #009587;
@@ -91,4 +91,12 @@
     display: grid;
     grid-template-columns: auto auto;
     gap: 12px;
+    font-size: 14px;
+}
+.textstyle1{
+    font-size: 15px;
+    font-weight: 600;
+}
+.lmainrange{
+    font-size: 14px;
 }
