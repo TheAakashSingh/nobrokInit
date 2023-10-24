@@ -1,6 +1,7 @@
 import React from "react";
 import "./Home.css";
 import Leftsection from "../Components/Leftsection";
+import Rightsection from "../Components/Rightsection";
 export const Home = () => {
   return (
     <div className="HomeSection">
@@ -35,7 +36,7 @@ export const Home = () => {
 
 
         <div className="rightSection">
-          rightMost
+          <Rightsection />
         </div>
       </div>
     </div>

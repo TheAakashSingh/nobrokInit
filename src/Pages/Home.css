@@ -121,7 +121,7 @@
 
 .homeSecondSection{
     display: grid;
-    grid-template-columns: 30% auto;
+    grid-template-columns: 30% auto 10%;
     margin-top: 16px;
     margin-left: 30px;
     margin-right: 30px;
@@ -132,4 +132,5 @@
 }
 .rightSection{
     /* border: 1px solid red; */
+    padding: 0px 15px;
 }
